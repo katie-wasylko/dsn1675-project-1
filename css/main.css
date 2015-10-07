@@ -56,8 +56,18 @@ img {
 
 p {
   font-size: 12px;
-  margin-left: .65rem;
-  margin-right: .65rem;
-  color: deeppink;
-  text-align: center;
+  margin-left: .75rem;
+  margin-right: .75rem;
+  color: white;
+  text-align: left;
 }
+
+.firstcharacter {
+  float: left;
+  color: deeppink;
+  font-size: 72px;
+  line-height: 60px;
+  padding-top: 0;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: Georgia; }
