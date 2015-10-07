@@ -30,6 +30,10 @@ img {
 .image-wrapper {
   position: relative;
   width: 100%;
+  background-image: url(../production/bikebw.jpg);
+  padding-top: 60%;
+  background-size: cover;
+  background-position: center;
 }
 
 .image-wrapper h1 {
@@ -38,18 +42,18 @@ img {
 	padding: 0;
 	width: 100%;
 	color: deeppink;
-  color: rgba(255, 20, 147, 0.9);
+  color: rgba(255, 20, 147, 0.8);
 	text-align: center;
 	font-size: 34px;
 }
 
 .selfie {
   border-radius: 50%;
-  width: 35%;
+  width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -4rem;
+  margin-top: -3rem;
   position: relative;
   z-index: 100;
 }
