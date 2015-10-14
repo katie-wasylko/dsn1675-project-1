@@ -531,6 +531,8 @@ footer img {
     color: white;
     padding-top: 78px;
     padding-bottom: 128px;
+    border-style: dashed;
+    border-color: black;
   }
 
   .image-wrapper h2 {
