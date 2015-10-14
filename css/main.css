@@ -38,13 +38,24 @@ img {
 
 .image-wrapper h1 {
   position: absolute;
-	top: 35%;
+	top: 25%;
 	padding: 0;
 	width: 100%;
 	color: deeppink;
-  color: rgba(255, 20, 147, 0.8);
+  color: rgba(255, 20, 147, 0.9);
 	text-align: center;
 	font-size: 32px;
+}
+
+.image-wrapper h2 {
+  position: absolute;
+  top: 52%;
+  padding: 0;
+  width: 100%;
+  color: powderblue;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
 }
 
 .selfie {
@@ -87,7 +98,7 @@ footer img {
   display: inline-block;
   border-radius: 5px;
   width: 20%;
-  margin: 6%;
+  margin: 5% 14%;
   margin-top: -.85rem;
 }
 
@@ -104,13 +115,24 @@ footer img {
 
   .image-wrapper h1 {
     position: absolute;
-  	top: 35%;
+  	top: 25%;
   	padding: 0;
   	width: 100%;
   	color: deeppink;
-    color: rgba(255, 20, 147, 0.8);
+    color: rgba(255, 20, 147, 0.9);
   	text-align: center;
   	font-size: 44px;
+  }
+
+  .image-wrapper h2 {
+    position: absolute;
+    top: 55%;
+    padding: 0;
+    width: 100%;
+    color: powderblue;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
   }
 
   .selfie {
@@ -153,7 +175,7 @@ footer img {
     display: inline-block;
     border-radius: 5px;
     width: 15%;
-    margin: 8.5%;
+    margin: 4.5%;
     margin-top: -.85rem;
   }
 }
@@ -171,13 +193,23 @@ footer img {
 
   .image-wrapper h1 {
     position: absolute;
-  	top: 30%;
+  	top: 20%;
   	padding: 0;
   	width: 100%;
   	color: deeppink;
-    color: rgba(255, 20, 147, 0.8);
+    color: rgba(255, 20, 147, 0.9);
   	text-align: center;
   	font-size: 58px;
+  }
+
+  .image-wrapper h2 {
+    position: absolute;
+    top: 55%;
+    padding: 0;
+    width: 100%;
+    color: powderblue;
+    text-align: center;
+    font-size: 16px;
   }
 
   .selfie {
@@ -220,7 +252,7 @@ footer img {
     display: inline-block;
     border-radius: 5px;
     width: 13%;
-    margin: 9.8%;
+    margin: 5.5%;
     margin-top: -.85rem;
   }
 }
@@ -238,13 +270,23 @@ footer img {
 
   .image-wrapper h1 {
     position: absolute;
-  	top: 30%;
+  	top: 20%;
   	padding: 0;
   	width: 100%;
   	color: deeppink;
-    color: rgba(255, 20, 147, 0.8);
+    color: rgba(255, 20, 147, 0.9);
   	text-align: center;
   	font-size: 62px;
+  }
+
+  .image-wrapper h2 {
+    position: absolute;
+    top: 55%;
+    padding: 0;
+    width: 100%;
+    color: powderblue;
+    text-align: center;
+    font-size: 16px;
   }
 
   .selfie {
@@ -287,7 +329,7 @@ footer img {
     display: inline-block;
     border-radius: 5px;
     width: 13%;
-    margin: 9.8%;
+    margin: 5.7%;
     margin-top: -.85rem;
   }
 
@@ -306,13 +348,23 @@ footer img {
 
   .image-wrapper h1 {
     position: absolute;
-  	top: 30%;
+  	top: 20%;
   	padding: 0;
   	width: 100%;
   	color: deeppink;
-    color: rgba(255, 20, 147, 0.8);
+    color: rgba(255, 20, 147, 0.9);
   	text-align: center;
   	font-size: 70px;
+  }
+
+  .image-wrapper h2 {
+    position: absolute;
+    top: 55%;
+    padding: 0;
+    width: 100%;
+    color: powderblue;
+    text-align: center;
+    font-size: 18px;
   }
 
   .selfie {
@@ -355,7 +407,7 @@ footer img {
     display: inline-block;
     border-radius: 5px;
     width: 10%;
-    margin: 11%;
+    margin: 7%;
     margin-top: -.85rem;
   }
 
@@ -401,7 +453,7 @@ footer img {
     display: inline-block;
     border-radius: 5px;
     width: 8%;
-    margin: 12.4%;
+    margin: 8%;
     margin-top: -.85rem;
   }
 }
@@ -414,7 +466,17 @@ footer img {
 
   .image-wrapper h1 {
     font-size: 80px;
-    top: 25%;
+    top: 10%;
+  }
+
+  .image-wrapper h2 {
+    position: absolute;
+    top: 55%;
+    padding: 0;
+    width: 100%;
+    color: powderblue;
+    text-align: center;
+    font-size: 16px;
   }
 
   .selfie {
@@ -428,13 +490,57 @@ footer img {
 
   footer img {
     width: 7%;
-    margin: 13%;
-    margin-top: -1.8rem;
+    margin: 8.8%;
+    margin-top: -1rem;
   }
 }
 
 @media print {
+
   .social {
     display: none;
+  }
+
+  p {
+    display: none;
+  }
+
+  .selfie {
+    border-radius: 50%;
+    width: 10%;
+    margin-top: -6rem;
+    z-index: 100;
+  }
+
+  .image-wrapper {
+    width: 336px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: url(../production/bikebw.jpg);
+    padding-top: 192px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .image-wrapper h1 {
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -6rem;
+    color: white;
+    padding-top: 78px;
+    padding-bottom: 128px;
+  }
+
+  .image-wrapper h2 {
+    margin-top: -2rem;
+    padding: 0;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    z-index: 101;
   }
 }
