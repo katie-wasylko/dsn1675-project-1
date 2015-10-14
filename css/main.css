@@ -30,7 +30,7 @@ img {
 .image-wrapper {
   position: relative;
   width: 100%;
-  background-image: url(../production/bikebw.jpg);
+  background-image: url(../production/bike.jpg);
   padding-top: 60%;
   background-size: cover;
   background-position: center;
@@ -99,7 +99,7 @@ footer img:hover {
     position: relative;
     width: 100%;
     background-image: url(../production/bike.jpg);
-    padding-top: 50%;
+    padding-top: 45%;
     background-size: cover;
     background-position: center;
   }
