@@ -432,19 +432,3 @@ footer img {
     margin-top: -1.8rem;
   }
 }
-
-@media print {
-  .social {
-    display: none;
-  }
-
-  p {
-    display: none;
-  }
-
-  background-image {
-    width: 336px;
-    height: 192px;
-  }
-
-}
