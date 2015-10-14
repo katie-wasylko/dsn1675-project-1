@@ -432,3 +432,9 @@ footer img {
     margin-top: -1.8rem;
   }
 }
+
+@media print {
+  .social {
+    display: none;
+  }
+}
