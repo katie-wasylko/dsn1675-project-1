@@ -85,10 +85,44 @@ footer img {
   		display: inline-block;
   		border-radius: 5px;
   		width: 20%;
-  		margin: 5%;
+  		margin: 6%;
   	}
 
 footer img:hover {
   		width: 22.5%;
   		margin: 0 5%;
   }
+
+@media only screen and (min-width: 48em) {
+
+  .image-wrapper {
+    position: relative;
+    width: 100%;
+    background-image: url(../production/bike.jpg);
+    padding-top: 50%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .image-wrapper h1 {
+    position: absolute;
+	  top: 30%;
+	  padding: 0;
+	  width: 100%;
+	  color: deeppink;
+    color: rgba(255, 20, 147, 0.8);
+	  text-align: center;
+	  font-size: 64px;
+  }
+
+  .selfie {
+    border-radius: 50%;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5rem;
+    position: relative;
+    z-index: 100;
+  }
+}
